@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Elo gained by individual accepted changes, SPRT self-play">
+  <rect x="0.5" y="0.5" width="639" height="399" rx="14" fill="#0c0c0e" stroke="#202026"/>
+  <g font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="14">
+    <text x="32" y="44" fill="#8b8b94" font-size="15">Elo per accepted change · SPRT, 8+0.08</text>
+    <!-- scale: 1 Elo = 1.9 px, bars start at x=250 -->
+    <g fill="#c9c7c0">
+      <text x="236" y="86" text-anchor="end">late move reductions</text>
+      <text x="236" y="120" text-anchor="end">PVS + null move</text>
+      <text x="236" y="154" text-anchor="end">NNUE v2 (buckets)</text>
+      <text x="236" y="188" text-anchor="end">NNUE v1 vs classic</text>
+      <text x="236" y="222" text-anchor="end">late move pruning</text>
+      <text x="236" y="256" text-anchor="end">Texel on GM games</text>
+      <text x="236" y="290" text-anchor="end">reverse futility</text>
+      <text x="236" y="324" text-anchor="end">NNUE v5</text>
+    </g>
+    <g fill="#ff5a36">
+      <rect x="250" y="72" width="342" height="18" rx="3"/>
+      <rect x="250" y="106" width="283" height="18" rx="3"/>
+      <rect x="250" y="140" width="207" height="18" rx="3"/>
+      <rect x="250" y="174" width="171" height="18" rx="3"/>
+      <rect x="250" y="208" width="122" height="18" rx="3"/>
+      <rect x="250" y="242" width="97" height="18" rx="3"/>
+      <rect x="250" y="276" width="89" height="18" rx="3"/>
+      <rect x="250" y="310" width="84" height="18" rx="3"/>
+    </g>
+    <g fill="#0c0c0e" font-weight="700" text-anchor="end">
+      <text x="586" y="86">+180</text>
+      <text x="527" y="120">+149</text>
+      <text x="451" y="154">+109</text>
+      <text x="415" y="188">+90</text>
+      <text x="366" y="222">+64</text>
+      <text x="341" y="256">+51</text>
+      <text x="333" y="290">+47</text>
+      <text x="328" y="324">+44</text>
+    </g>
+    <text x="32" y="368" fill="#8b8b94">vs first working version: 199 wins, 0 losses, 1 draw</text>
+  </g>
+</svg>

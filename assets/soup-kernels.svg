@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="soup train on a Kaggle T4: 84.8 s to 60.7 s, peak GPU memory 14345 MiB to 2479 MiB">
+  <rect x="0.5" y="0.5" width="639" height="399" rx="14" fill="#0c0c0e" stroke="#202026"/>
+  <g font-family="Consolas, SFMono-Regular, Menlo, monospace">
+    <text x="32" y="48" fill="#8b8b94" font-size="15">soup train · Qwen2.5-1.5B · LoRA · Kaggle T4</text>
+
+    <!-- time -->
+    <text x="32" y="104" fill="#f2f0eb" font-size="17">training time</text>
+    <text x="608" y="104" fill="#ff5a36" font-size="17" text-anchor="end">×1.40 faster</text>
+    <rect x="32" y="120" width="560" height="22" rx="4" fill="#2a2a31"/>
+    <text x="40" y="136" fill="#c9c7c0" font-size="13">baseline</text>
+    <text x="584" y="136" fill="#c9c7c0" font-size="13" text-anchor="end">84.8 s</text>
+    <rect x="32" y="150" width="401" height="22" rx="4" fill="#ff5a36"/>
+    <text x="40" y="166" fill="#0c0c0e" font-size="13" font-weight="700">ours</text>
+    <text x="425" y="166" fill="#0c0c0e" font-size="13" font-weight="700" text-anchor="end">60.7 s</text>
+
+    <!-- memory -->
+    <text x="32" y="232" fill="#f2f0eb" font-size="17">peak GPU memory</text>
+    <text x="608" y="232" fill="#ff5a36" font-size="17" text-anchor="end">×5.8 less</text>
+    <rect x="32" y="248" width="560" height="22" rx="4" fill="#2a2a31"/>
+    <text x="40" y="264" fill="#c9c7c0" font-size="13">baseline</text>
+    <text x="584" y="264" fill="#c9c7c0" font-size="13" text-anchor="end">14 345 MiB</text>
+    <rect x="32" y="278" width="97" height="22" rx="4" fill="#ff5a36"/>
+    <text x="139" y="294" fill="#c9c7c0" font-size="13">2 479 MiB · ours</text>
+
+    <text x="32" y="356" fill="#8b8b94" font-size="14">eval loss 2.04967 → 2.04965 · 10/10 jury checks</text>
+  </g>
+</svg>
